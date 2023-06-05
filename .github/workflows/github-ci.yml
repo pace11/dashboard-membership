@@ -1,0 +1,16 @@
+# # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+# name: Github CI
+
+# on:
+#   push:
+#     branches:
+#       - master
+
+# jobs:
+#   run-build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Build Nextjs in Vercel
+#         run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_jIer281L6F3u1cYWGr23Fq6EKfMJ/e6JPVArRzt
